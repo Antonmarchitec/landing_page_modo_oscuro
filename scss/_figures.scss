@@ -73,6 +73,37 @@
                 line-height: 28px;
 
             }
+        }
+
+        .baseTitle{
+            margin-top: 5px;
+            color: orange;
+            font-size: 18px;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .baseDowloads{
+            width: 100%;
+            padding: 5px 0px;
+            //background: grey;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            .btnDescMedia{
+              width: 80px;
+              height: 30px;
+              background-image: url(../images/mediafire.png);
+              background-size: 100% 100%;
+            }
+            .btnDescMega{
+              width: 80px;
+              height: 30px;
+              background-image: url(../images/mega.png);
+              background-size: 100% 100%;            
+            }
         }   
     }
 

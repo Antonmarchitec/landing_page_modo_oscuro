@@ -1,42 +1,42 @@
 [
     {
         "id": 1,
-        "title": "Atrapa",
+        "title": "Catch the flag",
         "thumbnailUrl": "images/atrapa.jpg"
     },
     {
         "id": 2,
-        "title": "Los increibles",
+        "title": "The incredibles 2",
         "thumbnailUrl": "images/LOSINCREIBLES.jpeg"
     },
     {
         "id": 3,
-        "title": "Pinocho",
+        "title": "Pinocchio",
         "thumbnailUrl": "images/PINOCHO.jpg"
     },
     {
         "id": 4,
-        "title": "Piterpan",
+        "title": "Peter Pan",
         "thumbnailUrl": "images/PITERPAN.jpg"
     },
     {
         "id": 5,
-        "title": "Valiente",
+        "title": "Brave (Indomitable)",
         "thumbnailUrl": "images/valiemte.jpg"
     },
     {
         "id": 6,
-        "title": "El libro de la selva",
+        "title": "The jungle book",
         "thumbnailUrl": "images/el-libro-de-la-selva-movie_4zrr.jpg"
     },
     {
         "id": 7,
-        "title": "Una aventura de altura",
+        "title": "A high adventure",
         "thumbnailUrl": "images/up.jpg"
     },
     {
         "id": 8,
-        "title": "Buscando a nemo",
+        "title": "Finding Nemo",
         "thumbnailUrl": "images/nemo.jpg"
     }
   ]
