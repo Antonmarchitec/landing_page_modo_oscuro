@@ -62,3 +62,175 @@ a{
         }
     }
 }
+
+
+
+
+
+
+
+/******************************************************************
+/******************************************************************/
+@media (min-width:1025px) and (max-width:1200px) {
+    .CONTAINER_BASE{
+    //background: yellow;
+    //padding: 10px 0px;
+
+    /*background:$color-primario;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s all;*/
+    
+    .CONTAINER{
+        width:100%;
+        //padding: 20px 0px;
+        //background: rgb(14, 11, 182);
+        display: grid;
+        gap: 3px;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(5,auto) ;
+        grid-template-areas: "HEADER     HEADER     HEADER     HEADER"
+                             "BAR        BAR        BAR        BAR"
+                             "FIGURES    FIGURES    FIGURES    FIGURES"
+                             "BOX1       BOX1       BOX1       BOX2";
+        
+    }
+}
+}
+
+
+
+
+/******************************************************************
+/******************************************************************/
+@media (min-width:770px) and (max-width:1024px) {
+    .CONTAINER_BASE{
+    //background: rgb(38, 230, 111);
+    //padding: 10px 0px;
+
+    /*background:$color-primario;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s all;*/
+    
+    .CONTAINER{
+        width:100%;
+        //padding: 20px 0px;
+        //background: rgb(14, 11, 182);
+        display: grid;
+        gap: 3px;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(5,auto) ;
+        grid-template-areas: "HEADER     HEADER     HEADER     HEADER"
+                             "BAR        BAR        BAR        BAR"
+                             "FIGURES    FIGURES    FIGURES    FIGURES"
+                             "BOX1       BOX1       BOX1       BOX1"
+                             "BOX2       BOX2       BOX2       BOX2";
+        
+    }
+}
+}
+
+
+
+
+/******************************************************************
+/******************************************************************/
+@media (min-width:641px) and (max-width:769px) {
+    .CONTAINER_BASE{
+    //background: rgb(201, 14, 160);
+    
+    
+    .CONTAINER{
+        width:100%;
+        //padding: 20px 0px;
+        //background: rgb(14, 11, 182);
+        display: grid;
+        gap: 3px;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(5,auto) ;
+        grid-template-areas: "HEADER     HEADER     HEADER     HEADER"
+                             "BAR        BAR        BAR        BAR"
+                             "FIGURES    FIGURES    FIGURES    FIGURES"
+                             "BOX1       BOX1       BOX1       BOX1"
+                             "BOX2       BOX2       BOX2       BOX2";
+        
+    }
+}
+}
+
+
+
+
+
+
+
+/******************************************************************
+/******************************************************************/
+@media (min-width:481px) and (max-width:640px) {
+    .CONTAINER_BASE{
+    //background: rgb(8, 167, 230);
+    //padding: 10px 0px;
+    
+    .CONTAINER{
+        width:100%;
+        //padding: 20px 0px;
+        //background: rgb(14, 11, 182);
+        display: grid;
+        gap: 3px;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(5,auto) ;
+        grid-template-areas: "HEADER     HEADER     HEADER     HEADER"
+                             "BAR        BAR        BAR        BAR"
+                             "FIGURES    FIGURES    FIGURES    FIGURES"
+                             "BOX1       BOX1       BOX1       BOX1"
+                             "BOX2       BOX2       BOX2       BOX2";
+        
+    }
+}
+}
+
+
+
+
+
+
+
+/******************************************************************
+/******************************************************************/
+@media (min-width:320px) and (max-width:480px) {
+    .CONTAINER_BASE{
+    //background: rgb(224, 12, 207);
+    //padding: 10px 0px;
+    
+    .CONTAINER{
+        width:100%;
+        //padding: 20px 0px;
+        //background: rgb(14, 11, 182);
+        display: grid;
+        //gap: 3px;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(5,auto) ;
+        grid-template-areas: "HEADER     HEADER     HEADER     HEADER"
+                             "BAR        BAR        BAR        BAR"
+                             "FIGURES    FIGURES    FIGURES    FIGURES"
+                             "BOX1       BOX1       BOX1       BOX1"
+                             "BOX2       BOX2       BOX2       BOX2";
+        
+    }
+}
+}
+
+
+
+
+
+
+
+

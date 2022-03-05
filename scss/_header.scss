@@ -57,6 +57,17 @@
                 font-size: 20px;
             }
         }
+        .btnClose{
+            width: 20px;
+            height: 20px;
+            display: none;
+            //background-color: aqua;
+            .iconClose{
+                color: yellow;
+                font-size: 35px;
+                cursor: pointer;
+            }
+        }
         .contHeader_ul_li:hover{
             width: 100px;
             height: 40px;
@@ -69,3 +80,215 @@
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////
+////////////////////////////////////////////
+@media (max-width:1025px) and (min-width:1200px) {
+    .contHeader{
+        width: 100%;
+        padding: 80px 0px;
+        .contHeader_title{
+           text-align: center;
+           font-weight: 800;
+           font-style: italic;
+           color: rgb(251, 255, 4);
+           font-size: 60px;
+        }
+        .contHeader_subtitle{
+            text-align: center;
+            font-size: 18px;
+            font-style: italic;
+            color: rgb(255, 255, 255);
+            font-size: 30px;
+        }
+        .contHeader_btnResponsive{
+            width: 50px;
+            height: 50px;
+            background: rgb(138, 192, 11);
+            display: none;
+        }
+        .contHeader_ul{
+            width: 700px;
+            padding: 10px 0px;
+            margin: 60px auto;
+            //background: rgba(16, 156, 28, 0.315);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            
+            .logo{
+                width: 85px;
+                height: 80px;
+                border-radius: 50%;
+                background-image: url(../images/disney.jpg);
+                background-size: 100% 100%;
+                border: 2px solid white;
+                box-shadow: 0px 0px 100px blue;
+            }
+            .contHeader_ul_li{
+                width: 100px;
+                height: 40px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.3s linear;
+                .contHeader_ul_li_a {
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-size: 20px;
+                }
+            }
+            .contHeader_ul_li:hover{
+                width: 100px;
+                height: 40px;
+                background: rgb(0, 14, 209);
+                border:1px solid white;
+                border-radius: 50%;
+                .contHeader_ul_li_a{
+                    color: rgb(210, 231, 22);
+                }
+            }
+            .btnClose{
+                width: 20px;
+                height: 20px;
+                display: none;
+                //background-color: aqua;
+                .iconClose{
+                    color: yellow;
+                    font-size: 35px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+//////////////////////////////////////////////
+////////////////////////////////////////////
+@media (min-width:320px) and (max-width:769px){
+    .contHeader{
+        width: 100%;
+        padding: 30px 0px;
+        background-color: $color-primario;
+        position: relative;
+        .contHeader_title{
+           width: 80%;
+           margin: auto; 
+           //background-color: aqua;
+           text-align: center;
+           font-weight: 800;
+           font-style: italic;
+           color: rgb(251, 255, 4);
+           font-size: 50px;
+        }
+        .contHeader_subtitle{
+            text-align: center;
+            font-size: 18px;
+            font-style: italic;
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .contHeader_btnResponsive{
+            width: 70px;
+            height: 50px;
+            margin: auto;
+            background: rgb(138, 192, 11);
+            display: block;
+            background-image:url(../images/disney.jpg);
+            background-size: 100% 100%;
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px blue;
+            cursor: pointer;
+        }
+        .contHeader_ul{
+            position: absolute;
+            //top: -30px;
+            top: -150%;
+            left: 0;
+            width: 100%;
+            height: 250px;
+            padding: 10px 0px;
+            margin: 20px auto;
+            background: rgba(0, 0, 0, 0.842);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            transition: 0.5s all;
+            .logo{
+                width: 85px;
+                height: 80px;
+                border-radius: 50%;
+                background-image: url(../images/disney.jpg);
+                background-size: 100% 100%;
+                border: 2px solid white;
+                box-shadow: 0px 0px 100px blue;
+                display: none;
+            }
+            .contHeader_ul_li{
+                width: 100px;
+                height: 40px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.3s linear;
+                //background: red;
+                .contHeader_ul_li_a {
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-size: 20px;
+                }
+            }
+            .contHeader_ul_li:hover{
+                width: 100px;
+                height: 40px;
+                background: rgb(0, 14, 209);
+                border:1px solid white;
+                border-radius: 50%;
+                .contHeader_ul_li_a{
+                    color: rgb(210, 231, 22);
+                }
+            }
+            .btnClose{
+                width: 20px;
+                height: 20px;
+                display: block;
+                //background-color: aqua;
+                .iconClose{
+                    color: yellow;
+                    font-size: 35px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .contHeader_ul_JS{
+            top: -30px;
+        }
+    }
+} 
+
+
+
+
+
+

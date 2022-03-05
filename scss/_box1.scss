@@ -182,3 +182,152 @@
         }
     }
 }
+
+
+
+
+
+/////////////////////////////////////////////////////////////@at-root
+//////////////////////////////////////////////////////////////@at-root
+@media (min-width:320px) and (max-width:480px){
+    .contBox1{
+        width: 100%;
+        background:$color-primario;
+        padding: 10px;
+        transition: 0.5s all;
+    
+       
+        .contBox1_title{
+            font-weight: 400;
+            font-style: italic;
+            font-size: 18px;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .contBox1_block{
+            margin-top: 10px;
+            width: 100%;
+            padding: 10px 0px;
+            //background: pink;
+            .CONT_GRILLA{
+                width: 100%;
+                padding: 10px 0px;
+                //background: rgb(37, 37, 37);
+                display: grid;
+                gap: 3px;
+                grid-template-columns: 150px repeat(3,1fr);
+                grid-template-rows: repeat(3, auto);
+                grid-template-areas: "CONT_GRILLA_1B    CONT_GRILLA_1B     CONT_GRILLA_1B   CONT_GRILLA_1B"
+                                     "CONT_GRILLA_1A    CONT_GRILLA_1A     CONT_GRILLA_1A   CONT_GRILLA_1A"
+                                     "CONT_GRILLA_2B    CONT_GRILLA_2B     CONT_GRILLA_2B   CONT_GRILLA_2B"
+                                     "CONT_GRILLA_2A    CONT_GRILLA_2A     CONT_GRILLA_2A   CONT_GRILLA_2A"
+                                     "CONT_GRILLA_3B    CONT_GRILLA_3B     CONT_GRILLA_3B   CONT_GRILLA_3B"
+                                     "CONT_GRILLA_3A    CONT_GRILLA_3A     CONT_GRILLA_3A   CONT_GRILLA_3A";            
+                .CONT_GRILLA_1A{
+                   padding: 5px 0px;
+                   //background: rgba(214, 9, 9, 0.808);
+                   grid-area:CONT_GRILLA_1A ;
+                   .contGrilla_image{
+                       width: 80%;
+                       height: 250px;
+                       margin: auto;
+                       background: orangered;
+                       border-radius: 5px;
+                       
+                   }
+                }
+                .CONT_GRILLA_1B{
+                    padding: 5px 0px;
+                    //background: rgb(144, 182, 5);
+                    grid-area: CONT_GRILLA_1B;
+                    .contGrilla_description{
+                        width: 100%;
+                        padding: 5px;
+                        //background: olive;
+                        .contGrilla_description_title{
+                            font-weight: 400;
+                            font-size: 20px;
+                            color: orange;
+                        }
+                        .contGrilla_description_text{
+                            margin-top: 10px;
+                            color: aliceblue;
+                            font-weight: 400;
+                            font-size: 18px;
+    
+                        }
+                    }
+                }
+                .CONT_GRILLA_2A{
+                    padding: 5px 0px;
+                    //background: rgba(214, 9, 9, 0.808);
+                    grid-area:CONT_GRILLA_2A ;
+                    .contGrilla_image{
+                        width: 80%;
+                        height: 250px;
+                        margin: auto;
+                        background: orangered;
+                        border-radius: 5px;
+     
+                    }
+                 }
+                 .CONT_GRILLA_2B{
+                     padding: 5px 0px;
+                     //background: rgb(144, 182, 5);
+                     grid-area: CONT_GRILLA_2B;
+                     .contGrilla_description{
+                         width: 100%;
+                         padding: 5px;
+                         //background: olive;
+                         .contGrilla_description_title{
+                            font-weight: 400;
+                            font-size: 20px;
+                            color: orange;
+                        }
+                         .contGrilla_description_text{
+                             color: aliceblue;
+                             font-weight: 400;
+                             font-size: 18px;
+    
+                         }
+                     }
+                 }
+                 .CONT_GRILLA_3A{
+                    padding: 5px 0px;
+                    //background: rgba(214, 9, 9, 0.808);
+                    grid-area:CONT_GRILLA_3A ;
+                    .contGrilla_image{
+                        width: 80%;
+                        height: 250px;
+                        margin: auto;
+                        background: orangered;
+                        border-radius: 5px;
+     
+                    }
+                 }
+                 .CONT_GRILLA_3B{
+                     padding: 5px 0px;
+                     //background: rgb(144, 182, 5);
+                     grid-area: CONT_GRILLA_3B;
+                     .contGrilla_description{
+                        width: 100%;
+                        padding: 5px;
+                        //background: olive;
+                        .contGrilla_description_title{
+                            font-weight: 400;
+                            font-size: 20px;
+                            color: orange;
+                        }
+                        .contGrilla_description_text{
+                            color: aliceblue;
+                            font-weight: 400;
+                            font-size: 18px;
+    
+                        }
+                    }
+                 }
+            }
+        }
+    }
+}
