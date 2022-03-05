@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&family=League+Gothic&family=Roboto+Condensed:ital@0;1&display=swap');
+@import "colors";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(37, 128, 207);
+    font-family: 'Roboto Condensed', sans-serif;   //400
+}
+a{
+    text-decoration: none;
+}
+.CONTAINER_BASE{
+    width: 100%;
+    max-width: 1300px;
+    //padding: 10px 0px;
+    background:$color-primario;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s all;
+    
+    &.CONTAINER_BASE_JS{
+        background: white;
+    }
+    .CONTAINER{
+        width: 95%;
+        //padding: 20px 0px;
+        //background: rgb(14, 11, 182);
+        display: grid;
+        //gap: 3px;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(5,auto) ;
+        grid-template-areas: "HEADER     HEADER     HEADER     HEADER"
+                             "BAR        BAR        BAR        BAR"
+                             "FIGURES    FIGURES    FIGURES    FIGURES"
+                             "BOX1       BOX1       BOX1       BOX2";
+        .HEADER{
+            padding: 5px 0px;
+            background: $color-primario;
+            grid-area: HEADER;
+        }
+        .BAR{
+            //padding: 5px 0px;
+            //background: rgb(194, 214, 11);
+            grid-area: BAR;
+        }
+        .FIGURES{
+            //padding: 5px 0px;
+            //background: rgb(194, 214, 11);
+            grid-area: FIGURES;
+        }
+        .BOX1{
+            //padding: 5px 0px;
+            //background: rgb(194, 214, 11);
+            grid-area: BOX1;
+        }
+        .BOX2{
+            //padding: 5px 0px;
+            //background: rgb(194, 214, 11);
+            grid-area: BOX2;
+        }
+    }
+}

@@ -1,0 +1,118 @@
+@import "colors";
+
+.contFigures{
+    width: 100%;
+    //height: 300px;
+    padding: 10px;
+    background: $color-primario;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    transition: 0.5s all;
+
+    &.contFigures_JS{
+        background: white;
+        .contFigures_box1{
+            .baseFigura{
+                .contFigures_box1_img{
+                    box-shadow: 0px 0px 20px rgb(32, 32, 32) ;
+                    border:none;
+                }
+                .contFigures_box1_name{
+                    color: orange;
+                }
+            }
+        }
+        .contFigures_box2{
+            
+            .content_box2_card{    //esta es la base template
+               
+            }
+            .contFigures_box2_card{
+                 background: rgb(20, 18, 54);
+                .contFigures_box2_card_img{
+                   
+                }
+                .contFigures_box2_card_name{
+                   
+                }
+            }
+            .contFigures_box2_card:hover{
+                  background: rgb(31, 31, 31);
+                  box-shadow: 0px 0px 10px black;
+            }
+        }
+    }
+
+
+    .contFigures_box1{
+        width: 300px;
+        height: 400px;
+        padding: 10px;
+        //background: rgba(255, 0, 255, 0.233);
+        .baseFigura{
+            width: 100%;
+            //background: greenyellow;
+            padding: 5px;
+            .contFigures_box1_img{
+                width: 100%;
+                height: 100%;
+                //background: orange;
+                border-radius: 10px;
+                box-shadow: 0px 0px 20px orange ;
+                border:3px solid orange;
+                overflow: hidden;
+            }
+            .contFigures_box1_name{
+                margin-top: 20px;
+                text-align: center;
+                color: rgb(7, 224, 7);
+                font-weight: bold;
+                line-height: 28px;
+
+            }
+        }   
+    }
+
+    .contFigures_box2{
+        width: 72%;
+        padding: 10px;
+        //height: 100px;
+        //background: rgba(37, 80, 150, 0.301);
+        .content_box2_card{    //esta es la base template
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .contFigures_box2_card{
+            width: 180px;
+            height: 250px;
+            background: rgba(9, 8, 54, 0.671);
+            border-radius: 5px;
+            overflow: hidden;
+            margin-bottom: 10px;
+            transition: 0.3s all;
+            .contFigures_box2_card_img{
+                width: 100%;
+                height: 210px;
+                //background: hotpink;
+            }
+            .contFigures_box2_card_name{
+                margin-top: 10px;
+                text-align: center;
+                font-weight: 400;
+                font-size: 18px;
+                color: rgb(7, 224, 7);
+            }
+        }
+        .contFigures_box2_card:hover{
+            transform: scale(1.05,1.05);
+            box-shadow: 0px 0px 10px orange;
+            
+        }
+    }
+}

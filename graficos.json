@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "Atrapa",
+        "thumbnailUrl": "images/atrapa.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Los increibles",
+        "thumbnailUrl": "images/LOSINCREIBLES.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "Pinocho",
+        "thumbnailUrl": "images/PINOCHO.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Piterpan",
+        "thumbnailUrl": "images/PITERPAN.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Valiente",
+        "thumbnailUrl": "images/valiemte.jpg"
+    },
+    {
+        "id": 6,
+        "title": "El libro de la selva",
+        "thumbnailUrl": "images/el-libro-de-la-selva-movie_4zrr.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Una aventura de altura",
+        "thumbnailUrl": "images/up.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Buscando a nemo",
+        "thumbnailUrl": "images/nemo.jpg"
+    }
+  ]
