@@ -1,40 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&family=League+Gothic&family=Roboto+Condensed:ital@0;1&display=swap');
-@import "colors";
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    color: rgb(37, 128, 207);
-    font-family: 'Roboto Condensed', sans-serif;   //400
-}
-a{
-    text-decoration: none;
-}
+
 .CONTAINER_BASE{
     width: 100%;
-    max-width: 1300px;
+    max-width: 1440px;
     //padding: 10px 0px;
     background:$color-primario;
     margin: auto;
     display: flex;
     justify-content: center;
     transition: 0.5s all;
-    
+    overflow: hidden;
     &.CONTAINER_BASE_JS{
         background: white;
     }
     .CONTAINER{
-        width: 95%;
+        width: 100%;
         //padding: 20px 0px;
         //background: rgb(14, 11, 182);
         display: grid;
-        //gap: 3px;
+        //gap: 1em;
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: repeat(5,auto) ;
         grid-template-areas: "HEADER     HEADER     HEADER     HEADER"
                              "BAR        BAR        BAR        BAR"
                              "FIGURES    FIGURES    FIGURES    FIGURES"
-                             "BOX1       BOX1       BOX1       BOX2";
+                             "BOX1       BOX1       BOX1       BOX2"
+                             "FOOTER     FOOTER     FOOTER     FOOTER";
         .HEADER{
             padding: 5px 0px;
             background: $color-primario;
@@ -59,6 +49,11 @@ a{
             //padding: 5px 0px;
             //background: rgb(194, 214, 11);
             grid-area: BOX2;
+        }
+        .FOOTER{
+            //padding: 10px 0px;
+            //background: brown;
+            grid-area: FOOTER;
         }
     }
 }
@@ -95,7 +90,8 @@ a{
         grid-template-areas: "HEADER     HEADER     HEADER     HEADER"
                              "BAR        BAR        BAR        BAR"
                              "FIGURES    FIGURES    FIGURES    FIGURES"
-                             "BOX1       BOX1       BOX1       BOX2";
+                             "BOX1       BOX1       BOX1       BOX2"
+                             "FOOTER     FOOTER     FOOTER     FOOTER";
         
     }
 }
@@ -131,7 +127,8 @@ a{
                              "BAR        BAR        BAR        BAR"
                              "FIGURES    FIGURES    FIGURES    FIGURES"
                              "BOX1       BOX1       BOX1       BOX1"
-                             "BOX2       BOX2       BOX2       BOX2";
+                             "BOX2       BOX2       BOX2       BOX2"
+                             "FOOTER     FOOTER     FOOTER     FOOTER";
         
     }
 }
@@ -159,7 +156,8 @@ a{
                              "BAR        BAR        BAR        BAR"
                              "FIGURES    FIGURES    FIGURES    FIGURES"
                              "BOX1       BOX1       BOX1       BOX1"
-                             "BOX2       BOX2       BOX2       BOX2";
+                             "BOX2       BOX2       BOX2       BOX2"
+                             "FOOTER     FOOTER     FOOTER     FOOTER";
         
     }
 }
@@ -190,7 +188,8 @@ a{
                              "BAR        BAR        BAR        BAR"
                              "FIGURES    FIGURES    FIGURES    FIGURES"
                              "BOX1       BOX1       BOX1       BOX1"
-                             "BOX2       BOX2       BOX2       BOX2";
+                             "BOX2       BOX2       BOX2       BOX2"
+                             "FOOTER     FOOTER     FOOTER     FOOTER";
         
     }
 }
@@ -221,7 +220,8 @@ a{
                              "BAR        BAR        BAR        BAR"
                              "FIGURES    FIGURES    FIGURES    FIGURES"
                              "BOX1       BOX1       BOX1       BOX1"
-                             "BOX2       BOX2       BOX2       BOX2";
+                             "BOX2       BOX2       BOX2       BOX2"
+                             "FOOTER     FOOTER     FOOTER     FOOTER";
         
     }
 }

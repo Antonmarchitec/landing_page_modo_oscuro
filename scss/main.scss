@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&family=League+Gothic&family=Roboto+Condensed:ital@0;1&display=swap');
+@import "colors";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(37, 128, 207);
+    font-family: 'Roboto Condensed', sans-serif;   //400
+}
+a{
+    text-decoration: none;
+}
+
+
+body{
+    scroll-behavior:unset;
+
+}
+
+body::-webkit-scrollbar{
+    width: 15px;
+    
+}
+body::-webkit-scrollbar-thumb{
+    background: yellow;
+    border-radius: 20px;
+    height: 100px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background: rgb(255, 255, 118);
+    height: 150px;
+    
+}
+
 
 @import "grid";
 @import "header";
@@ -6,3 +40,4 @@
 @import "box1";
 @import "box2";
 @import "colors";
+@import "footer";
